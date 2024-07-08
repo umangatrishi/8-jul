@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+		int t;
+	cin>>t;
+	while(t--){
+	    int X,Y;
+	    std::cin >>X>>Y;
+	    int totalprize=10*X+90*Y;
+	    std::cout << totalprize << std::endl;
+	}
+
+}
